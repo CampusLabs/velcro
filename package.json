@@ -1,0 +1,14 @@
+{
+  "name": "velcro",
+  "private": true,
+  "version": "0.0.0",
+  "author": "OrgSync",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orgsync/velcro"
+  },
+  "devDependencies": {
+    "cogs": "x",
+    "node-sass": "x"
+  }
+}

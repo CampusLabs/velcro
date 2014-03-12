@@ -1,0 +1,16 @@
+.#{$sd-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: $sd-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+.#{$sd-css-prefix}-li {
+  position: absolute;
+  left: -$sd-li-width;
+  width: $sd-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.#{$sd-css-prefix}-lg {
+    left: -$sd-li-width + (4em / 14);
+  }
+}
