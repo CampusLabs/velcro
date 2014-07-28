@@ -1,0 +1,17 @@
+// Typography
+$global-font-family: Helvetica, arial, freesans, clean, sans-serif;
+$global-font-color: #222;
+$global-link-color: #0079ff;
+
+// Tables & Container Styling
+$border-radius: 3px;
+$table-border-style: solid;
+$table-border-size: 3px;
+$table-border-color: #e2e5e8;
+$table-cell-padding: 8px;
+$table-head-bg: #f9f9f9;
+$table-head-font-weight: normal;
+$table-border: $table-border-size $table-border-style $table-border-color;
+$simple-border: 1px $table-border-style $table-border-color;
+
+$global-margin-bottom: 2em;
