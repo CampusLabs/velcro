@@ -52,3 +52,21 @@ $yellow-highlight: lighten($yellow, 32%);
 $green-highlight: lighten($green, 32%);
 $blue-highlight: lighten($blue, 40%);
 $purple-highlight: lighten($purple, 40%);
+
+// Set up colors that relate to OS tools
+$color-bookmarks: $teal-lightest;
+$color-contact-books: $purple-darkest;
+$color-discussions: $green;
+$color-events: $red;
+$color-files: $indigo;
+$color-forms: $blue;
+$color-messaging: $teal-darkest;
+$color-news: $purple;
+$color-pages: $pink;
+$color-payments: $yellow-darkest;
+$color-people: $pink;
+$color-photos: $orange;
+$color-polls: $teal;
+$color-portal: $slate-darkest;
+$color-videos: $orange-lightest;
+$color-website: $yellow;

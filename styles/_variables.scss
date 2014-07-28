@@ -1,0 +1,32 @@
+// Typography
+$global-font-family: Helvetica, arial, freesans, clean, sans-serif;
+$global-font-color: #222;
+$global-link-color: #0079ff;
+
+$skinny: 300;
+$normal: 400;
+$bold: 600;
+
+// Tables & Container Styling
+$border-radius: 3px;
+
+// Used in Foundation Variables
+$table-bg: #fff;
+$table-head-bg: #f9f9f9;
+$table-head-font-weight: normal;
+
+// Used in Simple and Table borders
+$table-border-style: solid;
+$table-border-size: 3px;
+$table-border-color: #e2e5e8;
+
+// Used globally for padding
+$table-cell-padding: 8px;
+
+// Set up often-used borders
+$table-border: $table-border-size $table-border-style $table-border-color;
+$simple-border: 1px $table-border-style $table-border-color;
+
+// Spacing to drop on the bottom of elements
+// to give consistent spacing
+$global-margin-bottom: 2em;
