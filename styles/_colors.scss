@@ -46,7 +46,7 @@ $slate-darker: #979ea5;
 $slate-darkest: #60666d;
 $slate-lightest: #f2f3f6;
 
-$highlight-color: #e0ebf4;
+$highlight-color: $slate-lightest;
 
 $yellow-highlight: lighten($yellow, 32%);
 $green-highlight: lighten($green, 32%);
