@@ -1,0 +1,28 @@
+@mixin os-button{
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-radius: $border-radius;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: $normal;
+  line-height: 2.5em;
+  margin: 0;
+  outline: none;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  @include transition(box-shadow .25s, border .25s);
+  // Hover States (& Focus)
+  &:hover, &:focus {
+    background: #fff;
+    border: 1px solid #bbb;
+    border-bottom: 1px solid $slate-darkest;
+    box-shadow: 0px 1px 0px #ccc;
+    text-decoration: none !important;
+  }
+}
