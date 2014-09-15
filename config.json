@@ -1,0 +1,26 @@
+{
+  "colors": [
+    {"id": 0, "name": "nothing", "hex": "ffffff"},
+    {"id": 1, "name": "red-lightest", "hex": "edab9b"},
+    {"id": 2, "name": "purple", "hex": "a95bbf"},
+    {"id": 3, "name": "teal-lightest", "hex": "a4dcca"},
+    {"id": 4, "name": "pink-lightest", "hex": "e29ce1"},
+    {"id": 5, "name": "green", "hex": "87d361"},
+    {"id": 6, "name": "orange", "hex": "e57d02"},
+    {"id": 7, "name": "purple-lightest", "hex": "cfa4dc"},
+    {"id": 8, "name": "yellow-lightest", "hex": "f8e2ac"},
+    {"id": 9, "name": "grey", "hex": "cccccc"},
+    {"id": 10, "name": "yellow", "hex": "efc24f"},
+    {"id": 11, "name": "indigo-lightest", "hex": "ced9ef"},
+    {"id": 12, "name": "blue-lightest", "hex": "8cd1e6"},
+    {"id": 13, "name": "red", "hex": "de6444"},
+    {"id": 14, "name": "white", "hex": "ffffff"},
+    {"id": 15, "name": "indigo", "hex": "819dd5"},
+    {"id": 16, "name": "teal", "hex": "5bbfa1"},
+    {"id": 17, "name": "grey-lighter", "hex": "e2e2e2"},
+    {"id": 18, "name": "pink", "hex": "cb4dc7"},
+    {"id": 19, "name": "green-lightest", "hex": "c5e9b1"},
+    {"id": 20, "name": "blue", "hex": "38afd4"},
+    {"id": 21, "name": "orange-lightest", "hex": "fdac50"}
+  ]
+}
