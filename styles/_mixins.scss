@@ -1,0 +1,13 @@
+@import 'colors';
+
+@mixin ellipsis {
+  word-wrap: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin subtle-text {
+  color: $grey-darker;
+  font-size: 14px;
+}
