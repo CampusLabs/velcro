@@ -106,13 +106,13 @@
 
 // A simple way to drop a group of buttons into an ordered row
 // Drop in the class you use to define your button. Example: os-button-row('osw-button')
-@mixin os-button-row($button_class){
+@mixin os-button-row($button_class: 'button'){
   margin-bottom: 1em;
   padding-left: 1px;
   overflow: hidden;
 
   a,
-  .{$button_class} {
+  .#{$button_class}{
     margin-right: 10px;
     &:last-child {
       margin-right: 0px;
