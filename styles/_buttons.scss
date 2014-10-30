@@ -1,3 +1,6 @@
+// The basic button used throughout OrgSync.
+// This base sets up a normal-enough looking button.
+
 @mixin os-button {
   border: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -28,6 +31,7 @@
   }
 }
 
+// OrgSync's primary action on a page is a green button
 @mixin os-button-green {
   background: #82a941;
   border: 1px solid #7ea444;
@@ -42,6 +46,7 @@
   }
 }
 
+// The 'Simple' Button is a button styled like a regular text link
 @mixin os-button-simple {
   background: none;
   border: none;
@@ -88,6 +93,8 @@
   text-align: center;
 }
 
+// Buttons can be paired with icons from SyncDings requiring a little bit of
+// extra css and markup
 @mixin os-button-with-icon {
   padding: 0 10px 0 3px;
   i{
@@ -97,4 +104,26 @@
   }
 }
 
+// A simple way to drop a group of buttons into an ordered row
+@mixin os-button-row{
+  .button, a {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
 
+  .right .button{
+    margin-left: 10px;
+    margin-right: 0;
+    &:last-child{
+      margin-left: 10px;
+      margin-right: 0px;
+    }
+  }
+
+  // fix for .button being inside of a span for submit button
+  span input.button:last-child{
+    margin-right: 10px;
+  }
+}
