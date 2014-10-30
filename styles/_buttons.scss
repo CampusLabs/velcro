@@ -17,6 +17,7 @@
   text-decoration: none;
   width: auto;
   @include transition(box-shadow .25s, border .25s);
+
   // Hover States (& Focus)
   &:hover, &:focus {
     background: white;
@@ -25,4 +26,35 @@
     box-shadow: 0px 1px 0px #ccc;
     text-decoration: none !important;
   }
+}
+
+@mixin os-button-green{
+  background: #82a941;
+  border: 1px solid #7ea444;
+  color: #fff !important;
+  &:hover, &:focus {
+    border: 1px solid #455d20;
+    border-bottom: 1px solid #303c1f;
+    background-color: #759b38;
+  }
+  &:active {
+    background-color: #6f962e;
+  }
+}
+
+@mixin os-button-simple{
+  background: none;
+  border: none;
+  &:hover{
+    // Use a light gray that will overlay
+    // if this button is used on top of other colors
+    background: rgba(0,0,0,0.06);
+  }
+}
+
+@mixin os-button-tiny{
+  font-size: .85rem;
+  font-weight: $normal;
+  width: auto;
+  height: inherit;
 }
