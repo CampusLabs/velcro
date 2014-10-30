@@ -28,7 +28,7 @@
   }
 }
 
-@mixin os-button-green{
+@mixin os-button-green {
   background: #82a941;
   border: 1px solid #7ea444;
   color: #fff !important;
@@ -42,19 +42,59 @@
   }
 }
 
-@mixin os-button-simple{
+@mixin os-button-simple {
   background: none;
   border: none;
-  &:hover{
+  &:hover {
     // Use a light gray that will overlay
     // if this button is used on top of other colors
     background: rgba(0,0,0,0.06);
   }
 }
 
-@mixin os-button-tiny{
+@mixin os-button-tiny {
   font-size: .85rem;
   font-weight: $normal;
   width: auto;
   height: inherit;
 }
+
+@mixin os-button-large {
+  font-size: 1.2em;
+  padding: 7px 35px 9px;
+  width: auto;
+  height: inherit;
+}
+
+@mixin os-button-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  border: 1px dashed;
+  &:hover{
+    background: $grey-lightest;
+  }
+  &:active{
+    box-shadow: none;
+  }
+}
+
+// Different button shapes
+@mixin os-button-square { border-radius: 0; }
+@mixin os-button-round  { border-radius: 1000px; }
+@mixin os-button-full-width {
+  width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: center;
+}
+
+@mixin os-button-with-icon {
+  padding: 0 10px 0 3px;
+  i{
+    line-height: 1.7em;
+    display: inline-block;
+    min-width: 5px;
+  }
+}
+
+
