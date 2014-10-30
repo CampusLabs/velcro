@@ -2,10 +2,11 @@
 // This base sets up a normal-enough looking button.
 
 @mixin os-button {
-  border: 1px solid #ddd;
+  @include transition(box-shadow .25s, border .25s);
+  background: white;
   border-bottom: 1px solid #ddd;
   border-radius: $border-radius;
-  background: white;
+  border: 1px solid #ddd;
   color: #333;
   cursor: pointer;
   display: inline-block;
@@ -19,7 +20,6 @@
   text-align: center;
   text-decoration: none;
   width: auto;
-  @include transition(box-shadow .25s, border .25s);
 
   // Hover States (& Focus)
   &:hover, &:focus {
@@ -97,7 +97,7 @@
 // extra css and markup
 @mixin os-button-with-icon {
   padding: 0 10px 0 3px;
-  i{
+  i {
     line-height: 1.7em;
     display: inline-block;
     min-width: 5px;
@@ -105,25 +105,17 @@
 }
 
 // A simple way to drop a group of buttons into an ordered row
-@mixin os-button-row{
-  .button, a {
+// Drop in the class you use to define your button. Example: os-button-row('osw-button')
+@mixin os-button-row($button_class){
+  margin-bottom: 1em;
+  padding-left: 1px;
+  overflow: hidden;
+
+  a,
+  .{$button_class} {
     margin-right: 10px;
     &:last-child {
       margin-right: 0px;
     }
-  }
-
-  .right .button{
-    margin-left: 10px;
-    margin-right: 0;
-    &:last-child{
-      margin-left: 10px;
-      margin-right: 0px;
-    }
-  }
-
-  // fix for .button being inside of a span for submit button
-  span input.button:last-child{
-    margin-right: 10px;
   }
 }
