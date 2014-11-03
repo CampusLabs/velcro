@@ -1,4 +1,8 @@
+@import "bower_components/bourbon/app/assets/stylesheets/bourbon";
+
+@import 'styles/variables';
 @import 'styles/syncdings';
+@import 'styles/buttons';
 @import 'styles/colors';
 
 body {
@@ -14,4 +18,12 @@ h1 {
 h2 {
   color: $blue-darkest;
   font-size: 30px;
+}
+
+.button-row{
+  @include os-button-row('button');
+}
+
+.button{
+  @include os-button;
 }

@@ -1,0 +1,121 @@
+// The basic button used throughout OrgSync.
+// This base sets up a normal-enough looking button.
+
+@mixin os-button {
+  @include transition(box-shadow .25s, border .25s);
+  background: white;
+  border-bottom: 1px solid #ddd;
+  border-radius: $border-radius;
+  border: 1px solid #ddd;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: $normal;
+  line-height: 2.5em;
+  margin: 0;
+  outline: none;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+
+  // Hover States (& Focus)
+  &:hover, &:focus {
+    background: white;
+    border: 1px solid #bbb;
+    border-bottom: 1px solid $slate-darkest;
+    box-shadow: 0px 1px 0px #ccc;
+    text-decoration: none !important;
+  }
+}
+
+// OrgSync's primary action on a page is a green button
+@mixin os-button-green {
+  background: #82a941;
+  border: 1px solid #7ea444;
+  color: #fff !important;
+  &:hover, &:focus {
+    border: 1px solid #455d20;
+    border-bottom: 1px solid #303c1f;
+    background-color: #759b38;
+  }
+  &:active {
+    background-color: #6f962e;
+  }
+}
+
+// The 'Simple' Button is a button styled like a regular text link
+@mixin os-button-simple {
+  background: none;
+  border: none;
+  &:hover {
+    // Use a light gray that will overlay
+    // if this button is used on top of other colors
+    background: rgba(0,0,0,0.06);
+  }
+}
+
+@mixin os-button-tiny {
+  font-size: .85rem;
+  font-weight: $normal;
+  width: auto;
+  height: inherit;
+}
+
+@mixin os-button-large {
+  font-size: 1.2em;
+  padding: 7px 35px 9px;
+  width: auto;
+  height: inherit;
+}
+
+@mixin os-button-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  border: 1px dashed;
+  &:hover{
+    background: $grey-lightest;
+  }
+  &:active{
+    box-shadow: none;
+  }
+}
+
+// Different button shapes
+@mixin os-button-square { border-radius: 0; }
+@mixin os-button-round  { border-radius: 1000px; }
+@mixin os-button-full-width {
+  width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: center;
+}
+
+// Buttons can be paired with icons from SyncDings requiring a little bit of
+// extra css and markup
+@mixin os-button-with-icon {
+  padding: 0 10px 0 3px;
+  i {
+    line-height: 1.7em;
+    display: inline-block;
+    min-width: 5px;
+  }
+}
+
+// A simple way to drop a group of buttons into an ordered row
+// Drop in the class you use to define your button. Example: os-button-row('osw-button')
+@mixin os-button-row($button_class: 'button'){
+  margin-bottom: 1em;
+  padding-left: 1px;
+  overflow: hidden;
+
+  a,
+  .#{$button_class}{
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
