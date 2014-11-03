@@ -3,5 +3,8 @@
   "version": "0.0.0",
   "ignore": [
     "test"
-  ]
+  ],
+  "devDependencies": {
+    "bourbon": "3.1.8"
+  }
 }
