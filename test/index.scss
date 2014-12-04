@@ -27,3 +27,7 @@ h2 {
 .button{
   @include os-button;
 }
+
+.text-button {
+  @include os-text-button;
+}

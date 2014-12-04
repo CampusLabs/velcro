@@ -1,33 +1,42 @@
 // The basic button used throughout OrgSync.
 // This base sets up a normal-enough looking button.
 
-@mixin os-button {
-  @include transition(box-shadow .25s, border .25s);
-  background: white;
-  border-bottom: 1px solid #ddd;
-  border-radius: $border-radius;
-  border: 1px solid #ddd;
+@mixin os-button-reset {
+  @include appearance(none);
+  @include box-sizing(border-box);
+  @include user-select(none);
+  background: none;
+  border: 0;
+  border-radius: 0;
   color: #333;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
   font-weight: $normal;
-  line-height: 2.5em;
   margin: 0;
   outline: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+@mixin os-button {
+  @include os-button-reset;
+  @include transition(box-shadow .25s, border .25s);
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  border-radius: $border-radius;
+  border: 1px solid #ddd;
+  line-height: 2.5em;
   padding: 0 25px;
   position: relative;
   text-align: center;
-  text-decoration: none;
   width: auto;
 
-  // Hover States (& Focus)
-  &:hover, &:focus {
-    background: white;
+  &:hover,
+  &:focus {
     border: 1px solid #bbb;
     border-bottom: 1px solid $slate-darkest;
-    box-shadow: 0px 1px 0px #ccc;
-    text-decoration: none !important;
+    box-shadow: 0 1px 0 #ccc;
   }
 }
 
@@ -117,5 +126,14 @@
     &:last-child {
       margin-right: 0px;
     }
+  }
+}
+
+@mixin os-text-button {
+  @include os-button-reset;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
   }
 }
