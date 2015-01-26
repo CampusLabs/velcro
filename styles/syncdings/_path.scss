@@ -1,3 +1,5 @@
+@import 'variables', 'mixins';
+
 @font-face {
   font-family: SyncDings;
   src: url('#{$sd-font-path}.eot?v=#{$sd-version}');

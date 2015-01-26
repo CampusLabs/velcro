@@ -1,3 +1,5 @@
+@import 'variables', 'mixins';
+
 .#{$sd-css-prefix}-add:before { content: $sd-var-add; }
 .#{$sd-css-prefix}-admin:before { content: $sd-var-admin; }
 .#{$sd-css-prefix}-attach:before { content: $sd-var-attach; }

@@ -1,3 +1,5 @@
+@import 'variables', 'mixins';
+
 .#{$sd-css-prefix}-stack {
   position: relative;
   display: inline-block;
