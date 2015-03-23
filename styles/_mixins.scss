@@ -9,5 +9,10 @@
 
 @mixin subtle-text {
   color: $grey-darker;
-  font-size: 14px;
+  font-size: 13px;
+}
+
+@mixin subtler-text {
+  color: $grey-darker;
+  font-size: 11px;
 }
