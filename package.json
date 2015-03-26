@@ -1,7 +1,7 @@
 {
-  "name": "velcro",
+  "name": "orgsync-velcro",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "OrgSync",
   "license": "MIT",
   "repository": {
