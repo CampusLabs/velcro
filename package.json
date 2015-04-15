@@ -9,12 +9,8 @@
   },
   "devDependencies": {
     "cogs": "1.0.3",
-    "node-sass": "x"
-  },
-  "dependencies": {
-    "cogs-transformer-directives": "^1.0.2",
-    "cogs-transformer-sass": "^1.0.2",
-    "eslint": "^0.19.0",
-    "eslint-plugin-react": "^2.1.0"
+    "cogs-transformer-sass": "1.0.2",
+    "eslint": "0.19.0",
+    "eslint-plugin-react": "2.1.0"
   }
 }
