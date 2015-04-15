@@ -6,6 +6,6 @@
     "test"
   ],
   "devDependencies": {
-    "bourbon": "3.1.8"
+    "bourbon": "4.0.2"
   }
 }
