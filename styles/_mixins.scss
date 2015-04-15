@@ -11,3 +11,13 @@
   color: $grey-darker;
   font-size: 14px;
 }
+
+@mixin list-reset {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li{
+    margin: 0;
+    padding: 0;
+  }
+}

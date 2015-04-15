@@ -34,5 +34,5 @@ h2 {
 }
 
 .media{
-  @include os-media('pull-left', 'media-body');
+  @include os-media;
 }
