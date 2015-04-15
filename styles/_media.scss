@@ -9,12 +9,12 @@
   overflow: hidden;
 
   // We want the first item at the top of the box
-  > *:first-child {
+  .#{$body} > *:first-child {
     margin-top: 0;
   }
 
   // We want the last item to have no margin on the bottom
-  > *:last-child{
+  .#{$body} > *:last-child{
     margin-bottom: 0;
   }
 

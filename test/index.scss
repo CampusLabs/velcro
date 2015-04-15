@@ -4,6 +4,7 @@
 @import 'styles/syncdings';
 @import 'styles/buttons';
 @import 'styles/colors';
+@import 'styles/media';
 
 body {
   font-family: 'Helvetica Neue', sans-serif;
@@ -30,4 +31,8 @@ h2 {
 
 .text-button {
   @include os-text-button;
+}
+
+.media{
+  @include os-media('pull-left', 'media-body');
 }
