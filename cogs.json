@@ -1,6 +1,0 @@
-{
-  "watch": ["test", "styles"],
-  "targets": {
-    "test/index.scss": "test"
-  }
-}

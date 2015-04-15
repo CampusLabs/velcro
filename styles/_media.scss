@@ -1,0 +1,51 @@
+@import 'variables';
+@import 'mixins';
+
+//
+// The main media element
+//
+@mixin os-media($left: 'pull-left', $body: 'media-body'){
+  line-height: 1.2em;
+  margin-bottom: $global-margin-bottom;
+  overflow: hidden;
+
+  // We want the first item at the top of the box
+  .#{$body} > *:first-child {
+    margin-top: 0;
+  }
+
+  // We want the last item to have no margin on the bottom
+  .#{$body} > *:last-child{
+    margin-bottom: 0;
+  }
+
+  // Where your image, icons etc.. sit on the left side of the box
+  .#{$left}{
+    float: left;
+    margin-right: 1em;
+  }
+
+  // Your mai ncontent area
+  .#{$body}{
+    overflow: hidden;
+    zoom: 1;
+  }
+}
+
+//
+// Collapsed
+// When you don't need all of that padding
+//
+@mixin os-media-collapsed($left: 'pull-left'){
+  margin-bottom: 0;
+  .#{$left}{
+    margin-right: 0;
+  }
+}
+
+//
+// When you want a list of media elements
+//
+@mixin os-media-list{
+  @include list-reset;
+}
