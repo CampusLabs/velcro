@@ -3,11 +3,11 @@
 
 @mixin os-button-reset {
   @include appearance(none);
-  @include box-sizing(border-box);
   @include user-select(none);
   background: none;
   border: 0;
   border-radius: 0;
+  box-sizing: border-box;
   color: #333;
   cursor: pointer;
   display: inline-block;
