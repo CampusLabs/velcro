@@ -105,7 +105,8 @@
 // Buttons can be paired with icons from SyncDings requiring a little bit of
 // extra css and markup
 @mixin os-button-with-icon {
-  padding: 0 10px 0 3px;
+  padding-right: 10px;
+  padding-left: 3px;
   i {
     line-height: 1.7em;
     display: inline-block;
