@@ -2,6 +2,7 @@
 
 .#{$sd-css-prefix}-add:before { content: $sd-var-add; }
 .#{$sd-css-prefix}-admin:before { content: $sd-var-admin; }
+.#{$sd-css-prefix}-apple:before { content: $sd-var-apple; }
 .#{$sd-css-prefix}-attach:before { content: $sd-var-attach; }
 .#{$sd-css-prefix}-award:before { content: $sd-var-award; }
 .#{$sd-css-prefix}-bell:before { content: $sd-var-bell; }
@@ -11,6 +12,7 @@
 .#{$sd-css-prefix}-bookmark:before { content: $sd-var-bookmark; }
 .#{$sd-css-prefix}-budget:before { content: $sd-var-budget; }
 .#{$sd-css-prefix}-calendar:before { content: $sd-var-calendar; }
+.#{$sd-css-prefix}-calendar-add:before { content: $sd-var-calendar-add; }
 .#{$sd-css-prefix}-cap:before { content: $sd-var-cap; }
 .#{$sd-css-prefix}-check:before { content: $sd-var-check; }
 .#{$sd-css-prefix}-checkbook:before { content: $sd-var-checkbook; }
@@ -27,12 +29,14 @@
 .#{$sd-css-prefix}-donation:before { content: $sd-var-donation; }
 .#{$sd-css-prefix}-down:before { content: $sd-var-down; }
 .#{$sd-css-prefix}-download:before { content: $sd-var-download; }
+.#{$sd-css-prefix}-download-calendar:before { content: $sd-var-download-calendar; }
 .#{$sd-css-prefix}-dues-simple:before { content: $sd-var-dues-simple; }
 .#{$sd-css-prefix}-dues:before { content: $sd-var-dues; }
 .#{$sd-css-prefix}-duplicate:before { content: $sd-var-duplicate; }
 .#{$sd-css-prefix}-easel:before { content: $sd-var-easel; }
 .#{$sd-css-prefix}-edit:before { content: $sd-var-edit; }
 .#{$sd-css-prefix}-email:before { content: $sd-var-email; }
+.#{$sd-css-prefix}-embed:before { content: $sd-var-embed; }
 .#{$sd-css-prefix}-eportfolio:before { content: $sd-var-eportfolio; }
 .#{$sd-css-prefix}-error:before { content: $sd-var-error; }
 .#{$sd-css-prefix}-event:before { content: $sd-var-event; }
@@ -41,6 +45,7 @@
 .#{$sd-css-prefix}-file:before { content: $sd-var-file; }
 .#{$sd-css-prefix}-form:before { content: $sd-var-form; }
 .#{$sd-css-prefix}-gear:before { content: $sd-var-gear; }
+.#{$sd-css-prefix}-google:before { content: $sd-var-google; }
 .#{$sd-css-prefix}-home:before { content: $sd-var-home; }
 .#{$sd-css-prefix}-inbox:before { content: $sd-var-inbox; }
 .#{$sd-css-prefix}-info:before { content: $sd-var-info; }
@@ -114,7 +119,10 @@
 .#{$sd-css-prefix}-video:before { content: $sd-var-video; }
 .#{$sd-css-prefix}-view:before { content: $sd-var-view; }
 .#{$sd-css-prefix}-weather:before { content: $sd-var-weather; }
+.#{$sd-css-prefix}-webcal-url:before { content: $sd-var-webcal-url; }
 .#{$sd-css-prefix}-website:before { content: $sd-var-website; }
+.#{$sd-css-prefix}-windows:before { content: $sd-var-windows; }
 .#{$sd-css-prefix}-world:before { content: $sd-var-world; }
 .#{$sd-css-prefix}-wrench:before { content: $sd-var-wrench; }
+.#{$sd-css-prefix}-yahoo:before { content: $sd-var-yahoo; }
 .#{$sd-css-prefix}-zeus:before { content: $sd-var-zeus; }
