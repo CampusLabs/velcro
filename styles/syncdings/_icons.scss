@@ -22,14 +22,17 @@
 .#{$sd-css-prefix}-community:before { content: $sd-var-community; }
 .#{$sd-css-prefix}-construction:before { content: $sd-var-construction; }
 .#{$sd-css-prefix}-contact-book:before { content: $sd-var-contact-book; }
+.#{$sd-css-prefix}-contact-info:before { content: $sd-var-contact-info; }
 .#{$sd-css-prefix}-darth:before { content: $sd-var-darth; }
 .#{$sd-css-prefix}-dashboard:before { content: $sd-var-dashboard; }
+.#{$sd-css-prefix}-date-time:before { content: $sd-var-date-time; }
 .#{$sd-css-prefix}-delete:before { content: $sd-var-delete; }
 .#{$sd-css-prefix}-discussion:before { content: $sd-var-discussion; }
 .#{$sd-css-prefix}-donation:before { content: $sd-var-donation; }
 .#{$sd-css-prefix}-down:before { content: $sd-var-down; }
 .#{$sd-css-prefix}-download:before { content: $sd-var-download; }
 .#{$sd-css-prefix}-download-calendar:before { content: $sd-var-download-calendar; }
+.#{$sd-css-prefix}-dropdown:before { content: $sd-var-dropdown; }
 .#{$sd-css-prefix}-dues-simple:before { content: $sd-var-dues-simple; }
 .#{$sd-css-prefix}-dues:before { content: $sd-var-dues; }
 .#{$sd-css-prefix}-duplicate:before { content: $sd-var-duplicate; }
@@ -53,6 +56,7 @@
 .#{$sd-css-prefix}-invoice:before { content: $sd-var-invoice; }
 .#{$sd-css-prefix}-involvement:before { content: $sd-var-involvement; }
 .#{$sd-css-prefix}-jobs:before { content: $sd-var-jobs; }
+.#{$sd-css-prefix}-likert:before { content: $sd-var-likert; }
 .#{$sd-css-prefix}-location:before { content: $sd-var-location; }
 .#{$sd-css-prefix}-lock:before { content: $sd-var-lock; }
 .#{$sd-css-prefix}-logic:before { content: $sd-var-logic; }
@@ -69,13 +73,16 @@
 .#{$sd-css-prefix}-next:before { content: $sd-var-next; }
 .#{$sd-css-prefix}-note:before { content: $sd-var-note; }
 .#{$sd-css-prefix}-notification:before { content: $sd-var-notification; }
+.#{$sd-css-prefix}-number:before { content: $sd-var-number; }
 .#{$sd-css-prefix}-office-shortcuts:before { content: $sd-var-office-shortcuts; }
 .#{$sd-css-prefix}-open-book:before { content: $sd-var-open-book; }
 .#{$sd-css-prefix}-organization:before { content: $sd-var-organization; }
 .#{$sd-css-prefix}-orgsync-c:before { content: $sd-var-orgsync-c; }
 .#{$sd-css-prefix}-orgwall:before { content: $sd-var-orgwall; }
 .#{$sd-css-prefix}-page:before { content: $sd-var-page; }
+.#{$sd-css-prefix}-paragraph:before { content: $sd-var-paragraph; }
 .#{$sd-css-prefix}-payment:before { content: $sd-var-payment; }
+.#{$sd-css-prefix}-payment-form:before { content: $sd-var-payment-form; }
 .#{$sd-css-prefix}-paypal:before { content: $sd-var-paypal; }
 .#{$sd-css-prefix}-people:before { content: $sd-var-people; }
 .#{$sd-css-prefix}-person:before { content: $sd-var-person; }
@@ -90,6 +97,7 @@
 .#{$sd-css-prefix}-post-to:before { content: $sd-var-post-to; }
 .#{$sd-css-prefix}-previous:before { content: $sd-var-previous; }
 .#{$sd-css-prefix}-promote:before { content: $sd-var-promote; }
+.#{$sd-css-prefix}-radio:before { content: $sd-var-radio; }
 .#{$sd-css-prefix}-registration:before { content: $sd-var-registration; }
 .#{$sd-css-prefix}-reply:before { content: $sd-var-reply; }
 .#{$sd-css-prefix}-reply-all:before { content: $sd-var-reply-all; }
@@ -111,6 +119,7 @@
 .#{$sd-css-prefix}-success:before { content: $sd-var-success; }
 .#{$sd-css-prefix}-support:before { content: $sd-var-support; }
 .#{$sd-css-prefix}-swipe:before { content: $sd-var-swipe; }
+.#{$sd-css-prefix}-text:before { content: $sd-var-text; }
 .#{$sd-css-prefix}-time:before { content: $sd-var-time; }
 .#{$sd-css-prefix}-timesheet:before { content: $sd-var-timesheet; }
 .#{$sd-css-prefix}-todo-list:before { content: $sd-var-todo-list; }
@@ -119,6 +128,7 @@
 .#{$sd-css-prefix}-umbrella:before { content: $sd-var-umbrella; }
 .#{$sd-css-prefix}-unlock:before { content: $sd-var-unlock; }
 .#{$sd-css-prefix}-up:before { content: $sd-var-up; }
+.#{$sd-css-prefix}-up-form:before { content: $sd-var-up-form; }
 .#{$sd-css-prefix}-upload:before { content: $sd-var-upload; }
 .#{$sd-css-prefix}-video:before { content: $sd-var-video; }
 .#{$sd-css-prefix}-view:before { content: $sd-var-view; }
