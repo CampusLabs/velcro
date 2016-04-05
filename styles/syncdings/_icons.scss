@@ -22,6 +22,7 @@
 .#{$sd-css-prefix}-community:before { content: $sd-var-community; }
 .#{$sd-css-prefix}-construction:before { content: $sd-var-construction; }
 .#{$sd-css-prefix}-contact-book:before { content: $sd-var-contact-book; }
+.#{$sd-css-prefix}-crop:before { content: $sd-var-crop; }
 .#{$sd-css-prefix}-darth:before { content: $sd-var-darth; }
 .#{$sd-css-prefix}-dashboard:before { content: $sd-var-dashboard; }
 .#{$sd-css-prefix}-delete:before { content: $sd-var-delete; }
@@ -98,6 +99,8 @@
 .#{$sd-css-prefix}-reset:before { content: $sd-var-reset; }
 .#{$sd-css-prefix}-revenue:before { content: $sd-var-revenue; }
 .#{$sd-css-prefix}-rocket:before { content: $sd-var-rocket; }
+.#{$sd-css-prefix}-rotate-cw:before { content: $sd-var-rotate-cw; }
+.#{$sd-css-prefix}-rotate-ccw:before { content: $sd-var-rotate-ccw; }
 .#{$sd-css-prefix}-rss:before { content: $sd-var-rss; }
 .#{$sd-css-prefix}-rsvp:before { content: $sd-var-rsvp; }
 .#{$sd-css-prefix}-save:before { content: $sd-var-save; }
