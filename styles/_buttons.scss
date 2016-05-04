@@ -21,7 +21,6 @@
 
 @mixin os-button {
   @include os-button-reset;
-  @include transition(box-shadow .25s, border .25s);
   background: #fff;
   border-bottom: 1px solid #ddd;
   border-radius: $border-radius;
@@ -30,6 +29,7 @@
   padding: 9px 25px;
   position: relative;
   text-align: center;
+  transition: box-shadow .25s, border .25s;
   width: auto;
 
   &:hover,
